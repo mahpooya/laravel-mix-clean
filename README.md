@@ -1,6 +1,6 @@
-# Laravel Mix Clean
-[![Latest Version on NPM](https://img.shields.io/npm/v/laravel-mix-clean.svg?style=flat-square)](https://npmjs.com/package/laravel-mix-clean)
-[![npm](https://img.shields.io/npm/dt/laravel-mix-clean.svg?style=flat-square)](https://www.npmjs.com/package/laravel-mix-clean)
+# @mahpooya/laravel-mix-clean
+[![Latest Version on NPM](https://img.shields.io/npm/v/laravel-mix-clean.svg?style=flat-square)](https://npmjs.com/package/@mahpooya/laravel-mix-clean)
+[![npm](https://img.shields.io/npm/dt/laravel-mix-clean.svg?style=flat-square)](https://www.npmjs.com/package/@mahpooya/laravel-mix-clean)
 [![Software License](https://img.shields.io/npm/l/laravel-mix-clean.svg?style=flat-square)](LICENSE)
 
 This extension adds support for [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin) to [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
@@ -8,7 +8,7 @@ This extension adds support for [clean-webpack-plugin](https://github.com/johnag
 ## Installation
 
 ```
-npm i -D laravel-mix-clean
+npm i -D @mahpooya/laravel-mix-clean
 ```
 
 ## Usage
@@ -16,9 +16,9 @@ npm i -D laravel-mix-clean
 Require the extension inside your ``webpack.mix.js`` and add clean configurations like this:
 
 ```javascript
-const mix = require('laravel-mix');
+const mix = require('@mahpooya/laravel-mix');
 
-require('laravel-mix-clean');
+require('@mahpooya/laravel-mix-clean');
 
 mix
   .sass('src/app.scss', 'dist')
