@@ -1,6 +1,6 @@
 {
   "name": "@mahpooya/laravel-mix-clean",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A quick Laravel Mix extensions for file cleaning support (Fork for update dependencies).",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/mahpooya/laravel-mix-clean#readme",
   "peerDependencies": {
-    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.56"
+    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.57"
   }
 }
