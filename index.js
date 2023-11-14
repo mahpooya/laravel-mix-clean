@@ -23,6 +23,14 @@ class Clean {
    * @param options
    */
   register(options = {}) {
+    //TODO: remove this:
+    console.log("laravel-mix-clean index.js > register mahpooya logs");
+    console.log(
+        JSON.stringify({
+            a: 'try to this.options = options',
+            thisoptions: options,
+        }),
+    );
       this.options = options
   }
 
